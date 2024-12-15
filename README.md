@@ -2,12 +2,12 @@
 1. Overview
 - Model serving practice using framework tools.
 - Framework : [FastAPI](github.com/fastapi/fastapi), [BentoML](github.com/bentoml/BentoML), [Airflow](github.com/apache/airflow)
-- Other Tools : [Poetry](github.com/python-poetry/poetry), [Pydantic](github.com/pydantic/pydantic), [Docker](github.com/docker/docker-py), [Gradio](github.com/gradio-app/gradio), [Dstack](github.com/dstackai/dstack)
+- Other Tools : [Poetry](github.com/python-poetry/poetry), [Pydantic](github.com/pydantic/pydantic), [Docker](github.com/docker/docker-py), [Gradio](github.com/gradio-app/gradio), [Poetry](github.com/python-poetry/poetry)
 - BentoML은 docker, k8s와 연계되며 ML 배포 관리에 특화된 Open-Source framework 입니다.
 
 2. Goal
 - Web framework인 FastAPI, BentoML에 대해서 학습하는 것을 목표로 합니다.
-- 우선 FastAPI에 대해서 학습하고 (강의에서 권장된 내용), 익숙해진 뒤에 BentoML을 학습합니다.
+- 우선 FastAPI(low-level)에 대해서 학습하고 (강의에서 권장된 내용), 익숙해진 뒤에 BentoML(high-level)을 학습합니다.
 - 이전에 학습했던 gradio, docker, dstack를 활용해 간단한 프로젝트를 배포 가능한 단계로 경험해보는 것이 기본 목표입니다.
 
 3. FastAPI의 단점

@@ -3,6 +3,7 @@ __pycache__
 dist
 build
 egg-info
+data
 
 # Checkpoint files
 .pth
@@ -27,10 +28,11 @@ Thumbs.db
 *.o
 *.exe
 
-# Environment setting
-env
-bentoml
+# Source files
 gradio
 .gradio
-fastapi
+BentoML
+FastAPI
+Reflex
 Boostcamp-AI-Tech-Product-Serving
+ai_image_gen
